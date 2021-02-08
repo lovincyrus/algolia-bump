@@ -31,11 +31,11 @@ workflows:
     jobs:
       - build
 
-  nightly:
+  hourly:
     triggers:
       - schedule:
-          # UTC 7:00 AM = PDT 12:00 AM daily
-          cron: "0 7 * * *"
+          # Runs every 1 hour
+          cron: "0 * * * *"
           filters:
             branches:
               only:
