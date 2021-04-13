@@ -4,3 +4,7 @@
 
 ## Run this locally
 `node index.js` - update apps and wallets algolia index every hour.
+
+## Archived
+
+Moved to [`tendermint/backend`](https://github.com/tendermint/backend)
